@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:backgroundColor="#121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastillero IoT - Recordatorio"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: En espera de configuración"
+        android:textSize="16sp"
+        android:textColor="#00E676"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btn8m"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Programar 8 Minutos (Prueba)"
+        android:backgroundTint="#0277BD"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn8h"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Programar 8 Horas (Tratamiento)"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn24h"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Programar 24 Horas (Diario)"
+        android:backgroundTint="#37474F"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnDetener"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Apagar Alarma y Luz"
+        android:backgroundTint="#C62828" />
+
+</LinearLayout>
